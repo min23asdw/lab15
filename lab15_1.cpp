@@ -39,7 +39,7 @@ void findRowSum(const double *a,double *RowSum,int N,int M){
         *(RowSum+j) += *(a+i);
         if((i+1) % M == 0){
             j++;
-          //  *(RowSum+j) = 0;
+          //  *(RowSum+j) = 0; 
         }
     }
 }
