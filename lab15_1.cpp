@@ -21,14 +21,14 @@ int main(){
 	double *dPtr = data[0];
 	randData(dPtr,N,M);
 	showData(dPtr,N,M);
-	
+
 	cout << "---------------------------------------------\n";
-	
+
 	findRowSum(dPtr,sum1,N,M);
 	showData(sum1,N,1);
-	
+
 	cout << "---------------------------------------------\n";
-	
-	findColSum(dPtr,sum2,N,M); 
+
+	findColSum(dPtr,sum2,N,M);
 	showData(sum2,1,M);
 }
